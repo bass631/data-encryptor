@@ -1,9 +1,9 @@
-package ru.dbastrygin.dataencryptor.config;
+package ru.dataencryptor.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import ru.dbastrygin.dataencryptor.constants.FileType;
+import ru.dataencryptor.constants.FileType;
 
 import java.util.List;
 

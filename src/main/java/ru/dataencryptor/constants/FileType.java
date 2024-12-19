@@ -1,4 +1,4 @@
-package ru.dbastrygin.dataencryptor.constants;
+package ru.dataencryptor.constants;
 
 public enum FileType {
     YAML,

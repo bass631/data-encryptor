@@ -1,11 +1,11 @@
-package ru.dbastrygin.dataencryptor.service;
+package ru.dataencryptor.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
-import ru.dbastrygin.dataencryptor.config.EncryptorProp;
-import ru.dbastrygin.dataencryptor.constants.LogTag;
-import ru.dbastrygin.dataencryptor.util.EncryptorUtil;
+import ru.dataencryptor.config.EncryptorProp;
+import ru.dataencryptor.constants.LogTag;
+import ru.dataencryptor.util.EncryptorUtil;
 
 import java.util.HashMap;
 import java.util.List;

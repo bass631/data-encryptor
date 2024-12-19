@@ -1,11 +1,11 @@
-package ru.dbastrygin.dataencryptor.service;
+package ru.dataencryptor.service;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.springframework.stereotype.Service;
-import ru.dbastrygin.dataencryptor.config.EncryptorProp;
+import ru.dataencryptor.config.EncryptorProp;
 
 @Slf4j
 @Service

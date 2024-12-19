@@ -1,8 +1,8 @@
-package ru.dbastrygin.dataencryptor.annotation;
+package ru.dataencryptor.annotation;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import ru.dbastrygin.dataencryptor.config.EncryptorConfig;
+import ru.dataencryptor.config.EncryptorConfig;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

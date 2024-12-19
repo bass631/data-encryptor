@@ -1,4 +1,4 @@
-package ru.dbastrygin.dataencryptor.util;
+package ru.dataencryptor.util;
 
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.DumperOptions.FlowStyle;

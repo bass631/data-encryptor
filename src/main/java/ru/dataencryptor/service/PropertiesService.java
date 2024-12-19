@@ -1,10 +1,10 @@
-package ru.dbastrygin.dataencryptor.service;
+package ru.dataencryptor.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
-import ru.dbastrygin.dataencryptor.constants.LogTag;
-import ru.dbastrygin.dataencryptor.util.DumperUtil;
+import ru.dataencryptor.constants.LogTag;
+import ru.dataencryptor.util.DumperUtil;
 
 import java.io.*;
 import java.nio.file.Files;

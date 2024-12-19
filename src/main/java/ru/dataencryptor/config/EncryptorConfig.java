@@ -1,4 +1,4 @@
-package ru.dbastrygin.dataencryptor.config;
+package ru.dataencryptor.config;
 
 
 import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
@@ -11,14 +11,14 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-import ru.dbastrygin.dataencryptor.constants.LogTag;
+import ru.dataencryptor.constants.LogTag;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 @Configuration
 @EnableEncryptableProperties
-@ComponentScan(basePackages = {"ru.dbastrygin.dataencryptor"})
+@ComponentScan(basePackages = {"ru.dataencryptor"})
 @Slf4j
 public class EncryptorConfig {
 

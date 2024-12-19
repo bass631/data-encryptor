@@ -1,4 +1,4 @@
-package ru.dbastrygin.dataencryptor;
+package ru.dataencryptor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package ru.dbastrygin.dataencryptor.util;
+package ru.dataencryptor.util;
 
 public final class EncryptorUtil {
 
